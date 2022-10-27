@@ -1,9 +1,10 @@
 
 # Bootcamp-Project-01
 
+## Link
+https://jajohnson0201.github.io/Bootcamp-Project-01/
+
 ## Description
-
-
 
 - Made the Tags used in more of a semantic order, making it more developer friendly. It was a working website before, but now it has a cleaner work space for future updates.
 - This was does because it was hard to comprehend the whats what within the html and css of the page, now it has order and comments in order to be readable.
