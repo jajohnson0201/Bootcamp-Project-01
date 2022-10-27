@@ -1,55 +1,62 @@
+/*sets the whole pages sizing rules*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*sets the background color of the body(everything)*/
 body {
     background-color: #d9dcd6;
 }
-
+/*sets header background color, font within the header
+and the color of text, also gives room between text with "padding"*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*sets the header font size and display setting of blocks for each 
+section and sets them inline*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*gives the "seo" in the header to another color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/*sets the header location, distance from the top and right side of page,
+also gives a font with its size*/
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
+/*difines the unordered list's appearance, position, or image
+as "none"(NAVIGATION)*/
+.header nav ul {
     list-style-type: none;
 }
-
-.header div ul li {
+/*set the list items as inline block, and sets the distance from 
+the left using the margin (space around the elements border)(NAVIGATION)*/
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*sets the color of the navigation links(a=anchor links)*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*sets the font size of all paragraphs listed on the page*/
 p {
     font-size: 16px;
 }
-
+/*image for the background between header, sets the margin space from the sections below,
+also sets the size of the image, and sets the image to cover the whole page in its section*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +65,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*float= the class changes for the pictures*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +75,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*sets the main section location on the page*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*sets the loctation of the icons and their description with a set font family, also gives size limits and a background color.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,7 +92,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*benefit text color and distance from one another*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,7 +107,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*centers the icons, gives them a distance of 10px from the text */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,7 +122,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*icon image size rules*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,7 +140,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*these next 3 set the text color, background color, and font family for the main sections,
+also gives them distance from one another and adds to the size of the background with padding.*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +168,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*sets the maximum size of the main pictures*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +180,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/*these 3 are for the titles in the main section*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,14 +195,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*establishes the footer doesnt share rules with earlier classes. centers it and gives it a font family*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*footers header font size*/
 .footer h2 {
     font-size: 20px;
 }
